@@ -155,6 +155,13 @@ p {
 }
 
 @media (max-width: 1000px) {
+  .header {
+    gap: 1.563rem;
+  }
+  body {
+    gap: 1.563rem;
+    margin-top: 1.563rem;
+  }
   .conteudo-vantagem {
     grid-template-columns: 1fr;
     padding: 1rem;
@@ -166,6 +173,7 @@ p {
   .subtitulo {
     text-align: center;
     font-size: 3rem;
+    display: grid;
   }
 }
 @media (max-width: 680px) {
@@ -190,12 +198,6 @@ p {
 @media (max-width: 430px) {
   .subtitulo {
     font-size: 2rem;
-  }
-  p {
-    font-size: 1rem;
-  }
-  h3 {
-    font-size: 1rem;
   }
   .introducao h1 {
     font-size: 1.5rem;
